@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Prevent indexing of API endpoints
+Disallow: /api/
+
+# Prevent indexing of admin pages
+Disallow: /admin/
+
+# Prevent indexing of user-specific pages
+Disallow: /user/
+
+# Allow crawling of tool pages
+Allow: /pdf/
+Allow: /image/
+Allow: /text/
+Allow: /dev/
+Allow: /utility/
+
+# Sitemap location
+Sitemap: https://freeonlinetools.io/sitemap.xml
